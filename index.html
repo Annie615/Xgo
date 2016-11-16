@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>首页-有狗科技</title>
+    <link rel="stylesheet" href="./css/default.css"/>
+    <link rel="stylesheet" href="./css/style.css"/>
+    <link rel="stylesheet" href="./css/b_style.css"/>
+    <script type="text/javascript" src="./js/jquery.min.js"></script>
+    <script type="text/javascript" src="./js/index.js"></script>
+
+    <link rel="stylesheet" href="./css/swiper.css"/>
+    <script type="text/javascript" src="./js/TouchSlide.1.1.js"></script>
+    <script type="text/javascript" src="./js/swiper.min.js"></script>
+
+</head>
+<body class="id-body">
+<!--header-->
+<div class="headerWrap">
+    <div class="w1024">
+        <div class="headpc cleafix">
+            <a href="/" class="logo fl">
+                <img src="./images/logo-1.png"/></a>
+            <ul class="navpc fr">
+                <li><a href="javascript:void (0);">首页</a></li>
+                <li class="marr">
+                    <a href="./product.html">产品</a>
+                    <ul class="box ">
+                        <li><a href="product-1.html">家庭主动防御系统</a></li>
+                        <li><a href="./parts.html">其他配件</a></li>
+                    </ul>
+                </li>
+                <li class="marr"><a href="./serve.html">服务</a>
+                    <ul class="box ">
+                        <li><a href="./serve-1.html">人人快反服务</a></li>
+                        <li><a href="./other-serve.html">增值服务</a></li>
+                    </ul>
+                </li>
+                <li >
+                    <a href="./news.html">新闻动态</a>
+                </li>
+                <li class="marr">
+                    <a href="./about.html">关于我们</a>
+                    <ul class="box boxend">
+                        <li><a href="./about.html">有狗科技</a></li>
+                        <li><a href="./about.html">加入我们</a></li>
+                        <li><a href="./about.html">联系我们</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="javascript:void (0);">联系电话:010-53359913</a>
+                </li>
+            </ul>
+        </div>
+        <div class="headwap">
+            <a href="/" class="logo"><img src="./images/logo-1.png"/></a>
+            <div id="Nav">
+                <ul class="navwap">
+                    <li><a href="index.html" class="cur">首页</a></li>
+                    <li><a href="./product.html">产品</a></li>
+                    <li><a href="./serve.html">服务</a></li>
+                    <li><a href="./news.html">新闻动态</a></li>
+                    <li><a href="./about.html">关于我们</a></li>
+                </ul>
+            </div>
+            <div id="menu_wap"></div>
+        </div>
+        <div id="showRight"></div>
+    </div>
+    <div class="box1_bg"></div>
+</div>
+
+<!--banner-->
+<div class="bannerWrap_wc cleafix">
+    <div id="content">
+        <div id="focus" class="focus">
+            <div class="hd">
+                <ul>
+                    <li class="on"></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+            <div class="bd">
+                <ul style="overflow: hidden ; margin: 0 ; position: relative ; height: 680px">
+                    <li><a href="" target="_blank">
+                        <img src="./uploads/images/banner-01.jpg"/></a>
+                    </li>
+                    <li><a href="" target="_blank">
+                        <img src="./uploads/images/banner-02.jpg"/></a>
+                    </li>
+                    <li><a href="" target="_blank">
+                        <img src="./uploads/images/banner-03.jpg"/></a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script>
+        //banner
+        TouchSlide({
+            slideCell: "#focus",
+            titCell: ".hd ul", //开启自动分页 autoPage:true ，此时设置 titCell 为导航元素包裹层
+            mainCell: ".bd ul",
+            effect: "leftLoop",
+            delayTime: "600",
+            interTime: "2500",
+            autoPlay: true,//自动播放
+            autoPage: true //自动分页
+        });
+    </script>
+</div>
+
+<!--整体解决方案提供商-->
+<div class="caseWrap">
+    <div class="caseTop">
+        <span>Xgo家庭安全服务平台
+            <em>Xgo home security service platform</em>
+        </span>
+        <div class="line"></div>
+    </div>
+    <div class="w1024">
+        <ul class="case cleafix">
+            <a href="./product.html">
+                <li>
+                    <div class="case_div">
+                        <div class="case_tp">
+                            <div class="img" >
+                                <img src="./uploads/images/index-product1.jpg" alt="产品">
+                            </div>
+                            <div class="info">
+                                <img src="./uploads/images/index-product.jpg" alt="img">
+                            </div>
+                        </div>
+                        <h2>产品<br/>Products</h2>
+                    </div>
+                </li>
+            </a>
+            <a href="./serve.html">
+                <li>
+                    <div class="case_div">
+                        <div class="case_tp">
+                            <div class="img">
+                                <img src="./uploads/images/index-serve1.jpg" alt="服务">
+                            </div>
+                            <div class="info">
+                                <img src="./uploads/images/index-serve.jpg" alt="服务">
+                            </div>
+                        </div>
+                        <h2>服务<br/>Services</h2>
+                    </div>
+                </li>
+            </a>
+
+        </ul>
+    </div>
+</div>
+<!--浩思新闻-->
+<div class="newsWrap">
+    <div class="newsTop">
+        <span>有狗科技新闻<em>Xgo News</em></span>
+        <div class="line"></div>
+    </div>
+    <div class="w1024 cleafix">
+        <ul class="news_list cleafix">
+            <li class="n_list">
+                <div class="cha">
+                    <img src="./uploads/images/bigNews-1.jpg"/>
+                    <a href="./news_1.html" class="tit">智能家居怪圈：只“亮”</a>
+                    <span class="line"></span>
+                    <p>怪象①：投资界火热但缺好产品　　近年智能家居领域快速扩张，传统家电企 <a href="./news_1.html" class="li_more"></a>
+                    </p>
+                </div>
+            </li>
+            <li class="n_list">
+                <div class="cha">
+                    <img src="./uploads/images/bigNews-2.jpg"/>
+                    <a href="./news_2.html" class="tit">Gartner:预计2016年全球企业物联网使用率将达43%</a>
+                    <span class="line"></span>
+                    <p>市场研究机构Gartner本月初发布一份全球调查称，到2016年年底，全球企业的物联网采用率有望达到43%。
+                        <a href="./news_2.html" class="li_more"></a>
+                    </p>
+                </div>
+            </li>
+            <li class="n_list">
+                <div class="cha">
+                    <img src="./uploads/images/bigNews-3.jpg"/>
+                    <a href="./news_3.html" class="tit">调查显示有64%的中国企业用户部署了物联网解决方案</a>
+                    <span class="line"></span>
+                    <p>调研显示，中国物联网解决方案将覆盖到更多的应用场景。目前已经有64%的中国企业用户部署了物联网解决方案，高于全球48%的平均水平。 <a href="./news_3.html" class="li_more"></a>
+                    </p>
+                </div>
+            </li>
+            <li class="n_list1">
+                <img src="./images/icon-m.png"/>
+                <span class="line"></span>
+                <p>扫一扫二维码，关我们获取最新动态</p>
+            </li>
+        </ul>
+        <a href="./news.html" class="more">查看更多</a>
+    </div>
+</div>
+<!--浩思服务-->
+<!--<div class="serviceWrap">-->
+    <!--<div class="serviceTop">-->
+        <!--<span>产品中心<em>Product Center</em></span>-->
+    <!--</div>-->
+    <!--<div class="w1024">-->
+        <!--<ul class="service_list cleafix">-->
+            <!--<a href="/Index/productDetail/id/36.html" class="tit">-->
+                <!--<li class="cleafix ">-->
+                    <!--<div class="img"><img src="/Uploads/Picture/2016-04-18/thumb_278_0_5713be3b9ed7f.jpg"/></div>-->
+                    <!--<div class="wen">-->
+                        <!--<i class="ico"></i>-->
+                        <!--<a href="/Index/productDetail/id/36.html" class="tit">智慧体育-智能更衣柜</a>-->
+                        <!--<p>更衣柜是存放衣物的柜子，是各健身场所必不可少的用品，随着物联</p>-->
+                    <!--</div>-->
+                <!--</li>-->
+            <!--</a><a href="/Index/productDetail/id/35.html" class="tit">-->
+            <!--<li class="cleafix ">-->
+                <!--<div class="img"><img src="/Uploads/Picture/2016-04-18/thumb_278_0_5713bb653aa92.jpg"/></div>-->
+                <!--<div class="wen">-->
+                    <!--<i class="ico"></i>-->
+                    <!--<a href="/Index/productDetail/id/35.html" class="tit">智慧体育-智能闸机</a>-->
+                    <!--<p>会员关注俱乐部微信号后，实现扫描闸机上二维码开启闸机，即可打</p>-->
+                <!--</div>-->
+            <!--</li>-->
+        <!--</a><a href="/Index/productDetail/id/34.html" class="tit">-->
+            <!--<li class="cleafix marr">-->
+                <!--<div class="img"><img src="/Uploads/Picture/2016-04-18/thumb_278_0_5713b9f90235c.jpg"/></div>-->
+                <!--<div class="wen">-->
+                    <!--<i class="ico"></i>-->
+                    <!--<a href="/Index/productDetail/id/34.html" class="tit">智慧体育-智慧跑步机</a>-->
+                    <!--<p>会员关注俱乐部微信号后，实现扫描跑步机上二维码，健身数据上传</p>-->
+                <!--</div>-->
+            <!--</li>-->
+        <!--</a>-->
+        <!--</ul>-->
+    <!--</div>-->
+<!--</div>-->
+<!--合作伙伴-->
+<div class="parentsWrap">
+    <div class="caseTop">
+        <a href="/products/Partner"><span>合作伙伴<em>Partners</em></span></a>
+        <div class="line"></div>
+    </div>
+    <div class="w1024 swiper-container swiper-container1">
+        <div class="parents swiper-wrapper swiper-wrapper1">
+            <a href="" target="_blank" class="swiper-slide swiper-slide1 ">
+                <img src="./images/partner-1.jpg"/></a>
+            <a href="" target="_blank" class="swiper-slide swiper-slide1 ">
+                <img src="./images/partner-2.jpg"/></a>
+            <a href="" target="_blank" class="swiper-slide swiper-slide1 ">
+                <img src="./images/partner-3.jpg"/></a>
+            <a href="" target="_blank" class="swiper-slide swiper-slide1 ">
+                <img src="./images/partner-4.jpg"/></a>
+            <a href="" target="_blank" class="swiper-slide swiper-slide1 ">
+                <img src="./images/partner-5.jpg"/></a>
+            <a href="" target="_blank" class="swiper-slide swiper-slide1 marr">
+                <img src="./images/partner-6.jpg"/></a>
+        </div>
+        <div class="swiper-pagination swiper-pagination1"></div>
+    </div>
+    <script type="text/javascript">
+        var swiper = new Swiper('.swiper-container1', {
+            pagination: '.swiper-pagination1',
+            speed: 500,
+            slidesPerView: 'auto',
+            autoplay: 2000
+        });
+    </script>
+</div>
+<!--bottom-->
+<div class="bottomWrap">
+    <div class="w1024">
+        <div class="bottom cleafix">
+            <ul class="bottomL fl cleafix">
+                <li>
+                    <h2>产品</h2>
+                    <a href="product-1.html">家庭主动防御系统
+                    </a>
+                    <a href="parts.html">其他配件</a>
+                    </li>
+                <li>
+                    <h2>服务</h2>
+                    <a href="serve-1.html">人人快反服务</a>
+                    <a href="other-serve.html">其他增值服务</a></li>
+                <li>
+                    <h2>新闻动态</h2>
+                    <a href="./news.html">行业新闻</a></li>
+                <li>
+                    <h2>关于我们</h2>
+                    <a href="./about.html">有狗科技</a>
+                    <a href="./about.html">加入我们</a>
+                    <a href="./about.html">联系我们</a>
+                </li>
+            </ul>
+            <div class="bottomm fl">
+                <div class="anniu cleafix"><a class="bm-wx" href="javascript:void(0)">
+                    <img src="./images/ico18.png"/>
+                    <span><img class="weixins" src="./images/icon-1.jpg"/><i
+                            class="ico"></i></span>
+                </a>
+                    <script type="text/javascript">
+                        if ($(window).width() > 768) {
+                            $(".bm-wx").mouseover(function () {
+                                $(".bm-wx span").fadeIn(200);
+                            });
+                            $(".bm-wx").mouseleave(function () {
+                                $(".bm-wx span").fadeOut(100);
+                            });
+                        }
+                    </script>
+                    <a href="http://weibo.com/u/5866137416/home?wvr=5"><img src="./images/ico19.png"/></a><a
+                            href="#"><img src="./images/ico20.png"/></a></div>
+                <div class="tel"><a href="tel:010-53359913" class="tel"><img src="./images/ico21.png"/>010-53359913</a>
+                </div>
+            </div>
+            <div class="bottomR fr">
+                <span><img src="./images/icon-2.jpg"/>有狗微信</span>
+                <span><img src="./images/icon-m.png"/>有狗微博</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--footer-->
+<div class="footerWrap"><p>Copyright ©2016 浩思八方科技（北京）有限公司 &nbsp; 京ICP备16010132号-1 </p></div>
+
+<!--返回顶部-->
+<div class="TOP">
+    <div class="float"><a href="javascript:;" class="gotop"><i class="ico"></i></a></div>
+</div>
+
+</body>
+</html>
